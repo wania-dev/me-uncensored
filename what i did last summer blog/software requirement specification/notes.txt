@@ -1,0 +1,109 @@
+im excited about this project. 
+it can open a lot of doors
+
+// function options (){
+//     if (document.querySelector('.data').scrollWidth + 36 > window.outerWidth){
+//         document.getElementById('rightbtn').style.display = 'inline';
+//         document.getElementById('leftbtn').style.display = 'inline';
+//     } else {
+//         document.getElementById('rightbtn').style.display = 'none';
+//         document.getElementById('leftbtn').style.display = 'none';
+//     }
+// }
+// options()
+   for (let n = 0; n < categories.length; n++) {
+            if (Object.values(Posts)[i].category == categories[n]){
+                let cardHolder = document.querySelector('.carousels');
+                    let copyCard = card.cloneNode(true)
+                    cardHolder.append(copyCard)
+            }
+        }
+
+         for (let n = 0; n < categories.length; n++) {
+            if (Object.values(Posts)[i].category == categories[n]){
+                cardCopy = card.cloneNode(true)
+                document.querySelector('.thingie').append(cardCopy)
+                document.querySelector('.name').innerText = categories[n]
+            }   
+        }
+        // sort carousels into all, special, and category (from category object) and subcategories of category (if any)
+// menu 
+// let menuBtn = document.querySelector('#menuDrp')
+
+// menuBtn.addEventListener("click", function () {
+//     let menu = document.querySelector('nav')
+//         menu.style.height = "100vh";
+//         menuBtn.style.visibility = 'hidden'
+
+//         // cross btn 
+//         let cross = document.createElement('span');
+//             cross.className = 'menu-cross';
+//             cross.innerHTML = `<span class="material-symbols-rounded">close</span>`;
+//             menu.appendChild(cross);
+        
+//         let text = document.createElement('div')
+//             text.className = 'menuContent';
+//             text.innerHTML = 'like full time'
+//             menu.appendChild(text);
+
+//         cross.addEventListener("click", function(){
+//             menu.style.height = '0vh';
+//             menu.removeChild(cross)
+//             menu.removeChild(text)
+//             menuBtn.style.visibility = 'visible'
+//         })
+// })
+
+// function readFile(e) {
+//     objectNum = e
+//     fetch(Object.values(Posts)[e].FilePath)
+//     .then(function (response){
+//         return response.text()
+//     })
+//     .then(function(data){
+//         // using data and data object to open article
+//         article(data)
+//     })
+// }
+
+// function article(e){
+    // let article = document.querySelector('.article')
+    //     article.style.width = "98%";
+    //     // document.querySelector('.data').style.display = 'none'
+
+    // let backBTN = document.querySelector('.back')
+    //     backBTN.addEventListener("click", back)
+    //     backBTN.style.display = 'block'
+
+    // let content = document.querySelector('.content')
+    //     content.innerHTML = e
+
+    // let title = document.querySelector('.title')
+    //     title.innerText = Object.values(Posts)[objectNum].title
+
+    // let image = document.querySelector('.article-img')
+    //     image.src = Object.values(Posts)[objectNum].src
+    
+    // let des = document.querySelector('.description')
+    //     des.innerText = Object.values(Posts)[objectNum].description
+
+// }
+
+// function back(){
+//     let article = document.querySelector('.article')
+//         article.style.width = '0%'
+//     let backBTN = document.querySelector('.back')
+//         backBTN.style.display = 'none'
+//     document.querySelector('.data').style.display = 'inline-flex'
+// }
+function options (){
+    if (document.querySelector('.data').scrollWidth - 36 > window.outerWidth){
+        document.getElementById('rightbtn').style.display = 'inline';
+        document.getElementById('leftbtn').style.display = 'inline';
+
+    } else {
+        document.getElementById('rightbtn').style.display = 'none';
+        document.getElementById('leftbtn').style.display = 'none';
+    }
+}
+// options()

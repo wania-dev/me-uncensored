@@ -1,0 +1,36 @@
+What I aim to achieve?
+This blog is entirely self-promotional. I want this to be a place where I write about my life as a 15 year old 
+radical feminist with good education, and a middle class background, as I deal with various instances of sexism, 
+events, and drama of my senior year. 
+I also talk about my journey as a self-taught web developer and how I'm constantly trying to network, build amazing
+projects, and learn more complex skills. I share behind the scenes journeys as I create, collaborate or compete by
+building creative and innovative projects. 
+By writing this blog, I not only aim to network and find my place in communities where I'll strive thus growing
+my professional and social network. I also aim to help aspiring girls like me to mark their places and join the 
+coding industry with little to no experiance whatsoever. I hope they find inspiration and the empowerment to be 
+their true self, and grow their self esteem. Cheesy, right? 
+Anyway, I know my blog is gonna be alot useful to other people 15 year or girl or coder or not. That is because 
+I'm not just a coder. Im a video editor, Netflix junkie, and a rigorous reader. I hope people find me relative 
+on multiple accounts. 
+Also, This project is gonna be on my showcase when I apply to colleges, internship programs, etc. 
+It would also be fun to making some money while doing it. 
+A bigger part of why I choose to rebuild my entire brand (a.k.a my blog) is to showcase my advanced skills as a 
+web developer. I have some pretty interesting things in mind. First of all, this won't be a website. Rather a web app.
+I'll be using Javascript to code the most part and css to add cool and stylish animations. 
+Whenever I want to write a post, i open up a dry notepad, word or any other file. Once im done, i simply add the fetch function 
+and the text address into my file array. those files are then read, and their components (eg title, paragraphs etc) is 
+sorted into objects. those objects are then stored into respective arrays and thus used throughout the app. When I add a new file, 
+it automatically updates the carousels, cards, indexes and everything. Viola! Nooo work on my part. No writing, copying and 
+pasting cards to update the entire thing and along with all the other stuff combined, it wont take me hours to upload a single 
+blog post. Genius! 
+
+Ideas:
+Home Page, 
+    carousels (all), and a new carousel for every added type with atleast 1 cards
+    menu bar and icons (filter out for each of the menu types added)
+    search bar -> results will appear in flex view
+when pressed on filter if filters out all other types and presents that carousel's cards in a flex way
+
+Cards, all cards will have a comment section 
+
+log in/authentication

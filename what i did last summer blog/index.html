@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Wania F.</title>
+    <link rel="shortcut icon" href="/component media/favicon and logo (w).jpeg" type="image/x-icon">
+    <script defer src="main.js"></script>
+    <script src="/global files/objects.js"></script>
+    <script src="/global files/nav.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,200,0,0" />
+    <!-- arrows  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <nav>
+        <span class="material-symbols-outlined menuIcon" style="font-size: 27px;" onclick="menu()">drag_handle</span>
+        <a href="index.html"><div class="logo">me' uncensored</div></a>
+        <div class="right">
+            <div class="loginBTN" onclick="notready()">Log In</div>
+            <div class="signupBTN" onclick="notready()">Sign Up</div>
+            <span class="material-symbols-outlined search"style="font-size: 27px;" onclick="OpenSearchSec()">search</span>
+        </div>
+    </nav>
+    <!-- menu -->
+    <div class="menu">
+    </div>
+
+    <!-- search  -->
+    <div class="searchPage">
+        <div class="inputSearchQuery">
+            <input type="text" placeholder="Search..." value="" id="searchBar" autocomplete="off" onkeyup="searchCards()"> 
+            <span class="material-symbols-outlined" style="font-size: 30px;">search</span>    
+        </div>
+        <div class="results"></div>
+    </div>
+
+    <!-- all container   -->
+    <div class="megaContainer">
+        <div class="carouselName"><b>All</b></div>
+        <div class="container">
+            <div class="data"></div>
+        </div>    
+    </div>
+
+</body>
+</html>

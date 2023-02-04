@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* Caveat */
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+/* font families  */
+
+/* Space Mono  */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+/* Raleway */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+/* Inconsolata */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+/* fascinate */
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+
+/* Roboto mono  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+
+*{
+    font-family: poppins;
+    font-size: 15px;
+    scroll-behavior: smooth;
+}
+body {width: 85%; margin: auto;}
+
+a{text-decoration: none; color: black;}
+
+.post{
+    font-size: 16px;
+    font-family: poppins;
+}
+.card {
+    height: 400px;
+    width: 300px;
+    display: inline;
+    cursor: pointer;
+}
+
+.cardImg{
+    width: 100%;
+    height: 60%;
+    display: block;
+    margin: auto;
+}
+.cardTitle{ 
+     font-weight: 500; 
+     text-align: center;
+}
+.cardDes{
+    height: 50px;
+    font-size: 13px;
+    white-space: break-spaces;
+    opacity: 0.8;
+    text-align: center;
+}
+.data, .cat-car{
+    display: inline-flex !important;
+    gap: 15px;
+    width: auto;
+    height: max-content
+}
+.container{
+    width: 90%;
+    padding: 5px;
+    margin: 15px auto;
+    height: max-content;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.container::-webkit-scrollbar {
+    height: 5px;
+}
+.container::-webkit-scrollbar-thumb {
+    background: black;
+}
+/* carousel label  */
+.carouselLabel, .carouselName{
+    font-size: 15px;
+    margin: 5px;
+    text-transform: uppercase;
+}
+#rightbtn{float: right;}
+
+.material-symbols-rounded{
+    cursor: pointer;
+}
+/* nav  */
+.material-symbols-outlined{
+    cursor: pointer;
+}
+nav {
+    padding: 5px;
+    border-bottom: 1px solid black;
+    position: sticky;
+    top:0;
+    background: white;
+    width: 101%;
+    height: 45px;
+    z-index: 100000;
+}
+.logo{display: inline; font-size: 35px; font-family: 'Caveat', cursive; text-transform: lowercase;}
+
+.right{float: right; display: inline;}
+
+.search, .loginBTN, .signupBTN {
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.loginBTN, .signupBTN{
+    position: relative;
+    top: -5px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: blue;
+}
+.signupBTN{
+    border: 1px solid blue;
+}
+#menuBtns{
+    display: none;
+    width: fit-content; margin: 5px auto;
+}
+/* responsive nav */
+@media (max-width: 630px){
+    .loginBTN, .signupBTN{
+        display: none;
+    }
+    #menuBtns{display: block;}
+}
+.menu {
+    width: 0%;
+    height: 100vh;
+    position: fixed;
+    overflow: hidden;
+    bottom: 0; top: 55px;
+    background-color: rgb(250, 248, 248);
+    text-align: center;
+    transition: all 0.3s ease;
+    overflow-y: auto;
+    z-index: 1000;
+}
+.menuItems{
+    cursor: pointer;
+}
+/* search  */
+.searchPage {
+    width: 100%;
+    height:max-content;
+    margin: auto;
+    overflow-y: auto; 
+    padding: 5px;
+    display: none;
+}
+.inputSearchQuery{
+   width: 85%; text-align: center;
+   margin: 5px auto;
+}
+.inputSearchQuery input {
+    border-radius: 15px;
+    border: none;
+    outline: 1px solid black;
+    padding: 10px;
+    width: 50%; 
+    cursor: text;
+}
+.inputSearchQuery span{
+    position: relative;
+    top: 10px; 
+}
+/* carousel buttons  */
+.leftbtn, .rightbtn, #leftbtn, #rightbtn{
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: -160px;
+    font-size: 30px;
+    background: white;
+    border-radius: 50%;
+    padding: 0; margin: 0;
+}
+iframe{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#megaContainer{
+    border-bottom: 1px solid rgb(195, 195, 195);
+    margin: 5px auto;
+}
+.carouselLabel{
+    padding: 5px;
+}
+/* responsiveness */
+/* card  */
+@media (max-width: 410px) {
+    body {width: 90%;}
+
+    .card {width: 80vw; height: auto;}
+
+   .cardDes{font-size: 12px;}
+
+   .cardImg {width: 100%; height: 50%;}
+
+   .logo{font-size: 25px;}
+
+   .menuIcon{
+    position: relative;
+    top: 5px;
+   }
+   .search{font-size: 25px !important;}
+   .leftbtn, .rightbtn, #leftbtn, #rightbtn{top: -100px;}
+}
+/* footer  */
+.footer{
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+}
+/* article  */
+.logo-article {
+    font-size: 35px; font-family: 'Caveat', cursive; text-transform: lowercase; text-align: center;
+}
+.main-img{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+.title{
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 10px;
+    text-transform: capitalize;
+}
+.subtitle{
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    padding-bottom:10px;
+    font-size: 15px;
+    font-style: italic;
+}
+.article-content{
+    width: 70%;
+    margin: 15px auto;
+}
+@media (max-width: 400px){
+    .article-content, .subtitle, .title{
+        font-size: 13px;
+        margin: 10px auto;
+    }
+    .article-content{width: 95%;}
+    .footer{font-size: 15px;}
+}
+
+/* old articles */
+/* articles */
+.article{
+    width: 75%;
+    margin: auto;
+}
+.article h1{
+    font-size: 25px;
+}
+.article h3{
+    font-size: 18px;
+}
+.article h1, .article h3, .article h4{
+    text-align: center;
+    font-family: Poppins;
+    text-transform: capitalize;
+}
+.article p{
+    font-family: poppins;
+}
+.article .ftw {font-family: roboto mono;}
+
+.article a{font-family: roboto mono; font-weight: 600;}
+
+.article a:hover{text-decoration-line: underline;}
+
+.side-img{width: 50%; float: left; padding-right: 15px;}
+.right{float: right; padding-left: 15px;}
+footer{background: #f1f1f1; font-family: roboto mono; text-align: center; padding: 20px;}
+
+@media screen and (max-width: 500px) {
+    .article{padding-top: 10px;width: 95%;}
+    .article h1{
+        font-size: 20px;
+    }
+    .article h3{
+        font-size: 15px;
+    }
+    .side-img{display: block; float: none; margin: auto; width: 100%; padding: 0;}
+}
+blockquote{
+    text-align: right;
+    font-style: italic;
+    font-family: poppins;
+}

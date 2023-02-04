@@ -1,0 +1,30 @@
+So I’ve been writing for some time. For who and what, or why and when, I don’t even know the answer to these questions. But this file on word has been often, if not every time, open on the side. Whenever I’m working on a project or something, I have always returned to it like a priest returns to god, like an infant returns to its momma, like a dog returns to its owner. 
+<br><br>
+Religiously, Desperately, Loyally. 
+<br><br>
+That’s how I’ve always returned to writing. 
+<br><br>
+I developed this SPA sometime around the end of 2022, it was at the time the most exciting thing I was doing. Partly because I knew the logic it took to develop it was complex and deserved all the attention I could muster. 
+<br><br>
+I had a blog before this. But soon I was fed up of it. I built it when my skills were mediocre, consequently, when I improved and learned how to build something much better, I leapt at the first chance. 
+<br><br>
+I wanted it to be something that I can manage even when I’m most busy. I learned from the mistakes I made with my last one. With that one, whenever I felt like writing something, I had to load up a gazillion files on my code editor, create a new html file, fill it with all the appropriate syntax, style it, write it, link the file onto those gazillion other files, and it was a living hell. 
+<br><br>
+So I built this one, which allowed me to write whenever I felt like it on my word processor, get a suitable image for the cover, think of a catchy title, add in some description, all of that into a single JS object and voila, it's done, uploaded and integrated into the entire app.
+<br><br>
+I planned every detail of it, wrote every little function on my massive whiteboard and spread my code empire onto the wall behind it with pink and yellow sticky notes everywhere and pencil scribbles on the matt finish. 
+<br><br>
+I felt like I was effing Godzilla to have designed and developed it. But of course, soon the pride fell out and prejudice filled in the gap it left when I improved even further and got to know there were a million things I could’ve done better. Naturally, with my temperament, I felt like smashing my laptop into a trillion pieces. 
+<br><br>
+In my anger and much expected self-disappointment I abandoned the project I devoted my time and energy at for weeks. 
+<br><br>Today, like every other Saturday, I woke up early. I ate some leftover pizza of the night before and enjoyed a little independence. That small joy I get when I’m finally able to be alone, away from my family. For solitude is a luxury I never fail to be grateful for. It’s not like I don’t love my family. In fact every time I get the chance to be home alone, as the day passes and more hours go by, I crave their company. I allow myself to feel the loneliness, the quiet, as if it’ll consume me, inch by inch, becoming a black hole. 
+<br><br>But this morning, I didn’t feel it yet. Instead, I plugged in my Airpods and vibed to ‘Dou Pal’. Pretty ordinary right? Except, not for me. This morning, I was protesting. By listening in to a pop muse produced by a local artist in my local language, my ears were defying the years of systemic colonial oppression by the suppression of my culture and music. So every rhythm, every word, every sound, every beat was a tribute to my heritage, an effort to reconcile with a conveniently lost culture, that lost feeling of being acquainted with something bigger than me, myself, and I. Being part of something great and majestic, and beautiful. Not sacrifice, or bloodshed, or religion, or hardship, or sexism, or racism, or political instability, or poverty, or dictatorship, or systemic injustices to the lower income class but something great and majestic, and beautiful. 
+<br><br>That’s what music gives me. Listening to the local music and supporting the artists who carefully crafted them – each of whom individually reviving the rich artistic and cultural persona of Pakistan with no state support whatsoever – enables me to look into the spotty mirror and belong. Belong somewhere in those musical notes, in those strong or soft vocals, in those high beats or slow melodies. 
+<br><br>So I don’t care if somebody thinks of me as melodramatic, and theatrical. In the words of Machiavellian Iago from Shakespeare’s tragic play, Othello, ‘There is more sense in that than reputation. Reputation is an idle and most false imposition, oft got without merit and lost without deserving’. These lines belong to my cultural suppressors. I wish to use it against them. 
+<br><br>Going back to my day, as it progressed I was looking at my c drive which I seldom do unless my computer’s acting up, and for the first time I opened this file as an observer. Previously I had only opened it when I had a thousand words forming in my mind related to a thousand issues and no one who'll listen. I would open it to start typing hurriedly at my keyboard as if there was a time limit to pour out my mind. As if the thread of thought was gonna loose me. Or I'll loose it. I forgot what I had in mind. 
+<br><br>As I read through its contents, I fired up my code editor and accessed the abandoned project directory. I made a decision. I wanted to be out there. Doesn’t matter if it finds anyone or not. I don’t care. All I want is me in all her forms, her rage, her ideas, her emotions, her plans, her opinions, her grammatically erroneous OUT THERE. 
+<br><br>Not to be judged for, but to be free. 
+<br><br>To let it out.
+<br><br>Out of my space.
+<br><br>Out of the walls of my mind.
+<br><br>Outside the reach of my realm. 

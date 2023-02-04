@@ -1,0 +1,5 @@
+All images must be of width: 650px and height: 450px in article
+
+Card Image:
+width: 300px;
+height: 300px; 
