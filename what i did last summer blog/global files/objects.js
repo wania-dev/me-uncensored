@@ -3,10 +3,8 @@ let Posts = {
     post7: {
         title: 'Existential Unease: A Poem By Me',
         src: 'https://static.boredpanda.com/blog/wp-content/uploads/2016/12/depression-107-5864ce77ddeeb__700.jpg',
-        description: `“The common journey we all take, it makes no sense
- Just leads to existential unease, with no defense.
- In this state of existential unease,
- I search for peace, a calm breeze,”`,
+        description: `“The common journey we all take, it makes no sense, just leads to existential unease, with no defense.
+ In this state of existential unease, I search for peace, a calm breeze,”`,
         FilePath: 'text files/existential unease poem.txt',
         category: 'Uncensored',
         Dated: '2/5/2023'
