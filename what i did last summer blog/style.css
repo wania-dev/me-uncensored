@@ -253,7 +253,7 @@ iframe{
 }
 @media (max-width: 400px){
     .article-content, .subtitle, .title{
-        font-size: 13px;
+        font-size: 20px;
         margin: 10px auto;
     }
     .article-content{width: 95%;}
