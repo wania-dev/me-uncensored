@@ -236,7 +236,7 @@ iframe{
 .title{
     text-align: center;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 15px;
     margin: 10px;
     text-transform: capitalize;
 }
@@ -245,7 +245,7 @@ iframe{
     width: 75%;
     margin: auto;
     padding-bottom:10px;
-    font-size: 15px;
+    font-size: 10px;
     font-style: italic;
 }
 .article-content{
