@@ -1,3 +1,8 @@
+// msg
+alert(`This app is still under contruction. But I have many many plans for it so I request you just bear with me.
+      PS: It is not yet compatible with Safari but I intend to change that soon. 
+      Till then to all the iOS babes, your loss! `)
+
 // object categories into sep categorised carousels
 function createDIVforElement() {
     categories.forEach(element => {
