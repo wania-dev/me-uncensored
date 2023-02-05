@@ -193,6 +193,7 @@ iframe{
 #megaContainer{
     border-bottom: 1px solid rgb(195, 195, 195);
     margin: 5px auto;
+    height: fit-content;
 }
 .carouselLabel{
     padding: 5px;
@@ -208,7 +209,7 @@ iframe{
 
    .cardImg {width: 100%; height: 50%;}
 
-   .logo{font-size: 25px;}
+   .logo{font-size: 25px;} 
 
    .menuIcon{
     position: relative;
