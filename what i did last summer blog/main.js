@@ -217,7 +217,7 @@ function article(e, i){
         <header class="title">${Object.values(Posts)[i].title}</header>
         <div class="subtitle">${Object.values(Posts)[i].description}</div>
         <img class="main-img" src="${Object.values(Posts)[i].src}">
-        <p class="article-content">${text}</p>
+        <p class="article-content" style="font-size:15px;">${text}</p>
         </body>
     </html>`
 
