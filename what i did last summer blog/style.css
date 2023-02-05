@@ -71,7 +71,7 @@ a{text-decoration: none; color: black;}
     overflow-y: hidden;
 }
 .container::-webkit-scrollbar {
-    height: 5px;
+    height: 1px;
 }
 .container::-webkit-scrollbar-thumb {
     background: black;
