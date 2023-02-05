@@ -225,44 +225,6 @@ iframe{
     text-align: center;
 }
 /* article  */
-.logo-article {
-    font-size: 35px; font-family: 'Caveat', cursive; text-transform: lowercase; text-align: center;
-}
-.main-img{
-    width: 50%;
-    display: block;
-    margin: auto;
-}
-.title{
-    text-align: center;
-    font-weight: 400;
-    font-size: 18px;
-    margin: 10px;
-    text-transform: capitalize;
-}
-.subtitle{
-    text-align: center;
-    width: 75%;
-    margin: auto;
-    padding-bottom:10px;
-    font-size: 14px;
-    font-style: italic;
-}
-.article-content{
-    width: 70%;
-    font-size: 16px;
-    margin: 15px auto;
-}
-@media (max-width: 400px){
-    .title{
-        font-size: 15px;
-    }
-    .subtitle{font-size: 10px;}
-    
-    .article-content{width: 95%; font-size: 10px; margin: 10px auto}
-    .footer{font-size: 12px;}
-}
-
 /* old articles */
 /* articles */
 .article{
@@ -307,4 +269,43 @@ blockquote{
     text-align: right;
     font-style: italic;
     font-family: poppins;
+}
+/* new articles */
+.logo-article {
+    font-size: 35px; font-family: 'Caveat', cursive; text-transform: lowercase; text-align: center;
+}
+.main-img{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+.title{
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 10px;
+    text-transform: capitalize;
+}
+.subtitle{
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    padding-bottom:10px;
+    font-size: 14px;
+    font-style: italic;
+}
+.article-content{
+    width: 70%;
+    font-size: 16px;
+    margin: 15px auto;
+}
+@media (max-width: 500px){
+    .title{
+        font-size: 15px;
+    }
+    .subtitle{font-size: 10px;}
+    
+    .article-content{width: 95%; font-size: 10px; margin: 10px auto}
+    
+    .footer{font-size: 12px;}
 }
