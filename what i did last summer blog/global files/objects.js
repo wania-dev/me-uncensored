@@ -3,7 +3,7 @@ let Posts = {
     post8: {
         title: 'Internship at Indus Hospital, Korangi',
         src: 'component media/IMG_20230216_104529.jpg',
-        description: 'But I was a girl on a mission, so I continued my quest for gathering more information, trying to talk to more people, and observing the operations of the hospital. But that proved difficult since as interns, we were authorized to visit many places inaccessible to patients, but there were still places that were off-limits.',
+        description: 'But I was a girl on a mission, so I continued my quest for gathering more information... But that proved difficult since as interns, we were authorized to visit many places inaccessible to patients, but there were still places that were off-limits.',
         FilePath: 'text files/My Experience as an Intern at Indus Hospital',
         category: 'Socio-economic',
         Dated: '16/2/2023'
